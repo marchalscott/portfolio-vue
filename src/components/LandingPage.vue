@@ -1,19 +1,13 @@
 <template>
   <div class="menu">
-    <div class="menu-left">
-        <div class="menu-item">
-            Resume
-        </div>
+    <div class="menu-item">
+        Resume
     </div>
-    <div class="menu-center">
-        <div class="menu-item">
-            Work
-        </div>
+    <div class="menu-item ">
+        Work
     </div>
-    <div class="menu-right">
-        <div class="menu-item">
-            About
-        </div>
+    <div class="menu-item">
+        About
     </div>
   </div>
 </template>
@@ -25,5 +19,15 @@ export default {
 </script>
 
 <style scoped>
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.menu-item {
+    flex: 1;
+    border: 1px solid red;
+    text-align: center;
+}
 </style>
