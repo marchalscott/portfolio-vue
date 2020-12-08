@@ -1,10 +1,10 @@
 <template>
   <div class="menu">
     <div class="menu-item">
-        Resume
+        <a href = "" target = "_blank"> Home </a>
     </div>
-    <div class="menu-item ">
-        Work
+    <div class="menu-item">
+        Work Examples
     </div>
     <div class="menu-item">
         About
@@ -27,7 +27,6 @@ export default {
 
 .menu-item {
     flex: 1;
-    border: 1px solid red;
     text-align: center;
 }
 </style>
